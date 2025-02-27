@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/anders/scripts/C++/TDD/2_semester/build",
-  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/test_program.dir/main/test.cpp.o -c /home/anders/scripts/C++/TDD/2_semester/main/test.cpp",
-  "file": "/home/anders/scripts/C++/TDD/2_semester/main/test.cpp"
-}
-]

@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test_program
+# Target rules for targets named test_product
 
 # Build rule for target.
-test_program: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_program
-.PHONY : test_program
+test_product: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_product
+.PHONY : test_product
 
 # fast build rule for target.
-test_program/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_program.dir/build.make CMakeFiles/test_program.dir/build
-.PHONY : test_program/fast
+test_product/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_product.dir/build.make CMakeFiles/test_product.dir/build
+.PHONY : test_product/fast
 
 main/test.o: main/test.cpp.o
 .PHONY : main/test.o
 
 # target to build an object file
 main/test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_program.dir/build.make CMakeFiles/test_program.dir/main/test.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_product.dir/build.make CMakeFiles/test_product.dir/main/test.cpp.o
 .PHONY : main/test.cpp.o
 
 main/test.i: main/test.cpp.i
@@ -142,7 +142,7 @@ main/test.i: main/test.cpp.i
 
 # target to preprocess a source file
 main/test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_program.dir/build.make CMakeFiles/test_program.dir/main/test.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_product.dir/build.make CMakeFiles/test_product.dir/main/test.cpp.i
 .PHONY : main/test.cpp.i
 
 main/test.s: main/test.cpp.s
@@ -150,8 +150,32 @@ main/test.s: main/test.cpp.s
 
 # target to generate assembly for a file
 main/test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_program.dir/build.make CMakeFiles/test_program.dir/main/test.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_product.dir/build.make CMakeFiles/test_product.dir/main/test.cpp.s
 .PHONY : main/test.cpp.s
+
+sql_utils/sql_utils.o: sql_utils/sql_utils.c.o
+.PHONY : sql_utils/sql_utils.o
+
+# target to build an object file
+sql_utils/sql_utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_product.dir/build.make CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o
+.PHONY : sql_utils/sql_utils.c.o
+
+sql_utils/sql_utils.i: sql_utils/sql_utils.c.i
+.PHONY : sql_utils/sql_utils.i
+
+# target to preprocess a source file
+sql_utils/sql_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_product.dir/build.make CMakeFiles/test_product.dir/sql_utils/sql_utils.c.i
+.PHONY : sql_utils/sql_utils.c.i
+
+sql_utils/sql_utils.s: sql_utils/sql_utils.c.s
+.PHONY : sql_utils/sql_utils.s
+
+# target to generate assembly for a file
+sql_utils/sql_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_product.dir/build.make CMakeFiles/test_product.dir/sql_utils/sql_utils.c.s
+.PHONY : sql_utils/sql_utils.c.s
 
 # Help Target
 help:
@@ -161,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... test_program"
+	@echo "... test_product"
 	@echo "... main/test.o"
 	@echo "... main/test.i"
 	@echo "... main/test.s"
+	@echo "... sql_utils/sql_utils.o"
+	@echo "... sql_utils/sql_utils.i"
+	@echo "... sql_utils/sql_utils.s"
 .PHONY : help
 
 
