@@ -1,3 +1,3 @@
-C:/Users/0rband0/Documents/01_UCL_ITOE241/2025/01_Programming/_GIT/2_semester/build/CMakeFiles/test_program.dir
-C:/Users/0rband0/Documents/01_UCL_ITOE241/2025/01_Programming/_GIT/2_semester/build/CMakeFiles/edit_cache.dir
-C:/Users/0rband0/Documents/01_UCL_ITOE241/2025/01_Programming/_GIT/2_semester/build/CMakeFiles/rebuild_cache.dir
+/home/anders/scripts/C++/TDD/2_semester/build/CMakeFiles/test_program.dir
+/home/anders/scripts/C++/TDD/2_semester/build/CMakeFiles/edit_cache.dir
+/home/anders/scripts/C++/TDD/2_semester/build/CMakeFiles/rebuild_cache.dir

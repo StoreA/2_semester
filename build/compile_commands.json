@@ -1,8 +1,7 @@
 [
 {
-  "directory": "C:/Users/0rband0/Documents/01_UCL_ITOE241/2025/01_Programming/_GIT/2_semester/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\test_program.dir\\main\\test.cpp.obj -c C:\\Users\\0rband0\\Documents\\01_UCL_ITOE241\\2025\\01_Programming\\_GIT\\2_semester\\main\\test.cpp",
-  "file": "C:/Users/0rband0/Documents/01_UCL_ITOE241/2025/01_Programming/_GIT/2_semester/main/test.cpp",
-  "output": "CMakeFiles/test_program.dir/main/test.cpp.obj"
+  "directory": "/home/anders/scripts/C++/TDD/2_semester/build",
+  "command": "/usr/bin/g++   -g -std=gnu++17 -o CMakeFiles/test_program.dir/main/test.cpp.o -c /home/anders/scripts/C++/TDD/2_semester/main/test.cpp",
+  "file": "/home/anders/scripts/C++/TDD/2_semester/main/test.cpp"
 }
 ]
