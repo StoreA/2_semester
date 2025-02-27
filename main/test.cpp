@@ -6,7 +6,7 @@ int add(int a, int b) {
 }
 
 TEST_CASE("Addition fungerer korrekt", "[math]") {
-    REQUIRE(add(2, 2) == 4);
+    REQUIRE(add(2, 2) == 5);
     REQUIRE(add(-1, 1) == 0);
     REQUIRE(add(10, 5) == 15);
 }
