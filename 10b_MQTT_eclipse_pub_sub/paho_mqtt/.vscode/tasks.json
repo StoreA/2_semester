@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",                     // Debugging symbols
+                "${file}",               // Current file (e.g., subscriber.cpp)
+                "${workspaceFolder}/sql_utils/sql_utils.c", // Path to sql_utils.c
+                "-o",                    // Output executable
+                "${fileDirname}/${fileBasenameNoExtension}", // Output name
+                "-I/usr/local/include",  // Include path for Paho headers
+                "-L/usr/local/lib",      // Library path for Paho libraries
+                "-lpaho-mqttpp3",        // Link Paho MQTT C++ library
+                "-lpaho-mqtt3as",        // Link Paho MQTT C library (SSL async)
+                "-lsqlite3",             // Link SQLite3 library
+                "-pthread"               // Link pthread for thread support
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],   // Parse GCC errors
+            "detail": "Builds the current C++ file with Paho MQTT and SQLite support."
+        }
+    ]
+}
