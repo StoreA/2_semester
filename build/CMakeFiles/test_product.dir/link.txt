@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/test_product.dir/main/test.cpp.o CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o -o test_product  /usr/lib/x86_64-linux-gnu/libsqlite3.so 
+/usr/bin/g++ -g CMakeFiles/test_product.dir/main/test.cpp.o CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o -o test_product  /usr/lib/x86_64-linux-gnu/libsqlite3.so 

@@ -73,29 +73,29 @@ CMakeFiles/test_product.dir/main/test.cpp.o: CMakeFiles/test_product.dir/flags.m
 CMakeFiles/test_product.dir/main/test.cpp.o: /home/anders/scripts/C++/TDD/2_semester/main/test.cpp
 CMakeFiles/test_product.dir/main/test.cpp.o: CMakeFiles/test_product.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anders/scripts/C++/TDD/2_semester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_product.dir/main/test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_product.dir/main/test.cpp.o -MF CMakeFiles/test_product.dir/main/test.cpp.o.d -o CMakeFiles/test_product.dir/main/test.cpp.o -c /home/anders/scripts/C++/TDD/2_semester/main/test.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_product.dir/main/test.cpp.o -MF CMakeFiles/test_product.dir/main/test.cpp.o.d -o CMakeFiles/test_product.dir/main/test.cpp.o -c /home/anders/scripts/C++/TDD/2_semester/main/test.cpp
 
 CMakeFiles/test_product.dir/main/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_product.dir/main/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anders/scripts/C++/TDD/2_semester/main/test.cpp > CMakeFiles/test_product.dir/main/test.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/anders/scripts/C++/TDD/2_semester/main/test.cpp > CMakeFiles/test_product.dir/main/test.cpp.i
 
 CMakeFiles/test_product.dir/main/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_product.dir/main/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anders/scripts/C++/TDD/2_semester/main/test.cpp -o CMakeFiles/test_product.dir/main/test.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/anders/scripts/C++/TDD/2_semester/main/test.cpp -o CMakeFiles/test_product.dir/main/test.cpp.s
 
 CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o: CMakeFiles/test_product.dir/flags.make
 CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o: /home/anders/scripts/C++/TDD/2_semester/sql_utils/sql_utils.c
 CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o: CMakeFiles/test_product.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/anders/scripts/C++/TDD/2_semester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o -MF CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o.d -o CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o -c /home/anders/scripts/C++/TDD/2_semester/sql_utils/sql_utils.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o -MF CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o.d -o CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o -c /home/anders/scripts/C++/TDD/2_semester/sql_utils/sql_utils.c
 
 CMakeFiles/test_product.dir/sql_utils/sql_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_product.dir/sql_utils/sql_utils.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anders/scripts/C++/TDD/2_semester/sql_utils/sql_utils.c > CMakeFiles/test_product.dir/sql_utils/sql_utils.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/anders/scripts/C++/TDD/2_semester/sql_utils/sql_utils.c > CMakeFiles/test_product.dir/sql_utils/sql_utils.c.i
 
 CMakeFiles/test_product.dir/sql_utils/sql_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_product.dir/sql_utils/sql_utils.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anders/scripts/C++/TDD/2_semester/sql_utils/sql_utils.c -o CMakeFiles/test_product.dir/sql_utils/sql_utils.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/anders/scripts/C++/TDD/2_semester/sql_utils/sql_utils.c -o CMakeFiles/test_product.dir/sql_utils/sql_utils.c.s
 
 # Object files for target test_product
 test_product_OBJECTS = \

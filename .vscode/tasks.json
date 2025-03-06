@@ -7,9 +7,12 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "${file}", // Current file (subscriber.cpp)
+                "${fileDirname}/../sql_utils/sql_utils.c", // Path to sql_utils.cpp
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-lmosquittopp", // Link Mosquitto C++ library
+                "-lsqlite3"      // Link SQLite library
             ],
             "options": {
                 "cwd": "${fileDirname}"

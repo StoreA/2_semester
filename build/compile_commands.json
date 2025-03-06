@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/anders/scripts/C++/TDD/2_semester/build",
+  "command": "/usr/bin/g++  -I/home/anders/scripts/C++/TDD/2_semester/sql_utils -I/home/anders/scripts/C++/TDD/2_semester/include -g -std=gnu++11 -o CMakeFiles/test_product.dir/main/test.cpp.o -c /home/anders/scripts/C++/TDD/2_semester/main/test.cpp",
+  "file": "/home/anders/scripts/C++/TDD/2_semester/main/test.cpp"
+},
+{
+  "directory": "/home/anders/scripts/C++/TDD/2_semester/build",
+  "command": "/usr/bin/gcc  -I/home/anders/scripts/C++/TDD/2_semester/sql_utils -I/home/anders/scripts/C++/TDD/2_semester/include -g -std=gnu11 -o CMakeFiles/test_product.dir/sql_utils/sql_utils.c.o -c /home/anders/scripts/C++/TDD/2_semester/sql_utils/sql_utils.c",
+  "file": "/home/anders/scripts/C++/TDD/2_semester/sql_utils/sql_utils.c"
+}
+]
