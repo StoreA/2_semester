@@ -7,13 +7,13 @@ void setup_wifi();
 void maintain_wifi();
 
 const char* ssid = "TP-Link_6B21";        // Your hotspot SSID
-const char* password = ""; // Your hotspot password
+const char* password = "Albatros1920JaTak!"; // Your hotspot password
 
 // MQTT Broker details
-const char* mqtt_server = "";
+const char* mqtt_server = "74c7d5bfb46248ca858248f3b31bb752.s1.eu.hivemq.cloud";
 const int mqtt_port = 8883;
 const char* mqtt_user = "anders";
-const char* mqtt_pass = ""; // Add your actual password here
+const char* mqtt_pass = "Mortensen123!"; // Add your actual password here
 const char* mqtt_topic_temp = "temp3";
 const char* mqtt_topic_humi = "humi";
 const char* clientID = "ESP32_DHT11";
@@ -238,6 +238,7 @@ void loop() {
         Serial.println("Success publishing ");
         Serial.println(mqtt_topic_humi);
         Serial.println(humi_payload);
+        
 
         // Serial.println(String("Success publishing ") + mqtt_topic_humi);
       }
