@@ -2,10 +2,10 @@
 #include <string>
 #include <mqtt/async_client.h>
 
-const std::string SERVER_ADDRESS("tls://.s1.eu.hivemq.cloud:8883");  // Correct for TCP-TLS
-const std::string CLIENT_ID("MQTT_Subscriber");
+const std::string SERVER_ADDRESS("tcp://74c7d5bfb46248ca858248f3b31bb752.s1.eu.hivemq.cloud:1883");  // Correct for TCP-TLS
+const std::string CLIENT_ID("MQTT_Subscriber_Debian");
 const std::string MQTT_USER("anders");
-const std::string MQTT_PASS("your_password");  // Replace with actual password
+const std::string MQTT_PASS("Mortensen123!");  // Replace with actual password
 
 class MessageCallback : public virtual mqtt::callback {
 public:
@@ -31,8 +31,8 @@ int main() {
         std::cout << "Connected to MQTT broker!" << std::endl;
 
         // Subscribe to multiple topics with QoS 1
-        client.subscribe("temp3", 1);
-        client.subscribe("humi", 1);
+        client.subscribe("temp3", 0);
+        client.subscribe("humi", 0);
 
         // Keep running indefinitely
         while (true) {
